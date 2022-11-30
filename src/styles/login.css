@@ -1,0 +1,72 @@
+.parent_div{
+    background: #FFFFFF;
+    display:  flex;
+    justify-content: space-around;
+}
+
+/* ************************************************** */
+
+.child1_div{
+    width: 40.37%;
+    height: 45.3%;
+}
+
+.child1_1_img{
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+}
+
+/* ************************************************* */
+
+.child2_div{
+    display: flex;
+    flex-direction: column;
+    width: 45.3%;
+    height: 57.74%;
+}
+
+.child2_1_div{
+    size: 42px;
+    color: #011E40;
+    text-align: left;
+}
+
+.mobile{
+    text-align: left;
+}
+
+.country{
+    text-align: left;
+}
+
+.textarea_msg{
+    height: 70px;
+    padding: 10px;
+}
+
+.submit_btn{
+    cursor: pointer;
+    height: 76px;
+    width: 176px;
+}
+
+@media screen and (max-width: 960px) {
+    .parent_div{
+        background: #FFFFFF;
+        display:  flex;
+        flex-direction: column;
+    }
+    .child1_div{
+        width: 90%;
+        margin: auto;
+        height: 45.3%;
+    }
+    .child2_div{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        height: 57.74%;
+    }
+}
